@@ -1,0 +1,159 @@
+body, div {
+    margin: 0;
+    padding: 0;
+  }
+nav
+{
+margin-left: 800px;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.link
+{
+    margin-right: 60px;
+    padding: 20px 0 20px 0;
+    text-decoration: none;
+    font-style: bold;
+    color: black;
+    font-weight: 1000;
+    font-size: 16px;
+}
+.link:hover
+{
+    color:red;
+}
+.introduction
+{
+    margin: 180px 0 0 180px;
+    font-size: 30px;
+}
+.section-one
+{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    background-image: url(photo\ sahithi.jpeg);
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+    background-position: 900px 70px;
+    background-color: rgb(223, 217, 217);
+    width:auto;
+    height: 600px; 
+    margin-bottom: 40px;   
+    margin-left: 0px;
+    margin-right: 0px;
+}
+button
+{
+    margin-top: 0px;
+    padding: 7px 15px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+hr
+{
+    width:50px;
+    height: 2px;
+    background-color: black;
+}
+.About-me
+{
+    height: fit-content;
+    width:900px;
+}
+.intro{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight:  100;;
+    color: rgb(159, 157, 157);
+}
+.skill-set
+{
+    margin: 150px 0 150px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    gap:20px;
+}
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#000000 75%, gray 0);  
+  }
+  .progress-bar::before
+  {
+    content:"75%";
+  }
+  .progress-bar-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#000000 70%, gray 0);  
+  }
+  .progress-bar-1::before
+  {
+    content:"70%";
+  }
+  .progress-bar-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#000000 80%, gray 0);  
+  }
+  .progress-bar-2::before
+  {
+    content:"80%";
+  }
+  .layout
+  {
+    text-align: center;
+  }
+  .what-i-do
+  {
+    margin-top: 80px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    justify-content: space-around;
+  }
+  .coder,.Developer,.Freelancer
+  {
+    height: 500px;
+    width: 400px;
+  }
+  b
+  {
+    font-size: 25px;
+    font-weight: 1000;
+  }
+  .form
+  {
+    color: rgb(159, 158, 158);
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+    text-align: left;
+  }
+  .coder
+  {
+    margin-top: 30px;
+  }
